@@ -1,0 +1,24 @@
+{
+  "name": "amazon-bid-master",
+  "version": "1.0.0",
+  "description": "End-to-End Bid Optimization & Analytics Tool for Amazon PPC Managers",
+  "scripts": {
+    "dev": "tsx server/index.ts",
+    "build": "cd client && npm run build",
+    "test": "jest",
+    "install:all": "npm install && cd client && npm install"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "tsx": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}
