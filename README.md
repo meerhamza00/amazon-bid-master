@@ -58,6 +58,7 @@ This tool is designed to empower Amazon sellers and agencies to optimize their P
     The application will be available at http://localhost:5000.
 
 ## Project Structure
+
 amazon-bid-master/
 ├── client/               # React frontend
 │   ├── src/
